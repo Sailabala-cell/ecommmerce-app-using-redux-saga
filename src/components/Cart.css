@@ -1,0 +1,28 @@
+
+#cartProduct{
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+    height: 100%;
+    width:100vw;
+  }
+.cart_page_container{
+    margin-top: 40px;
+}
+  .cartitem{
+   display:flex;
+   align-items: center;
+}
+
+  .cartitem img{
+    margin-left: 20px;
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+  }
+.cart__info{
+    padding-left: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:700px;
+    
+}
